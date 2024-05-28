@@ -101,7 +101,7 @@
     ```
 
 ### Solving algorithms with functional patterns
-- **is a palindrome**
+- **[is a palindrome](./is-a-palindrome.js)**
 
 ### Core Concepts
 - Importance of OOP, design patterns, and FP for maintainable and efficient code
