@@ -110,21 +110,32 @@
 
 # CS101
 
-### Background
-As a computer science engineer, it is important to understand how to wrangle data in the most idiomatic and idempotent manner to produce maintainable and repeatable code. Performance is also important, and we'll get into that later.
+### User Story
+As a software engineer, I want code that is not only clear and maintainable but also robust and resilient in distributed or concurrent environments, therefore we will utilize idiomatic and idempotent paradigms when creating code. Performance is also important, but we'll get to that later.
+
+### A note on mastery
+
+Immutability involves creating stable, unchangeable states in evolutionary biology, personal development, and software development; Realms where consistency and reliability can be ensured. This course will not focus on immutability. Instead, we will emphasize programming fundamentals, including the importance of deliberate, strategic changes in software development. By focusing on making intentional modifications, we aim to explore how thoughtful and adaptive changes can enhance code quality, foster innovation, and improve problem-solving skills. Additionally, we will highlight how the functional programming paradigm, with its emphasis on immutability, accelerates developer velocity by reducing bugs, simplifying debugging, and making code easier to reason about. This approach offers a more dynamic and flexible path to mastering programming concepts.
+
+### More on immutability
+[immutability.js](./immutable.js)
 
 ### Why JS?
-JS is an ideal language choice because of its ubiquitous nature; it's everywhere, and that makes it especially accessible. Here at Code Along Studio, we have selected JS to craft our CS 101 course with the goal of offering a high-quality, but absolutely free, online resource for individuals without expensive computing resources.
+JS is an ideal language choice because of its ubiquitous nature; it's everywhere, and that makes it especially accessible. JS was selected to craft the CS 101 course with the goal of offering a high-quality online curriculum for individuals that do not have expensive computing resources at their disposal.
 
-### Acknowledgments & Disclaimer
-This content could not have been realized without contributions from Douglas Crockford. Additionally, Crockford has provided compelling arguments for why developers should consider other languages and technologies other than JS for projects.
+### Acknowledgments
+This content could not have been realized without contributions from the following individuals:
+- Douglas Crockford
+- Sandy Metz
+- Kyle Simpson
+
+### Disclaimer
+Crockford has provided compelling arguments for why developers should consider other languages and technologies other than JS for projects.
 
 ## OOP (Object-Oriented Programming)
-
-### Definition
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can contain data and code to manipulate that data. Objects are instances of classes, which can encapsulate data (attributes) and functions (methods) that operate on the data.
 
-### Core Concepts
+### OOP Core Concepts
 1. **Classes and Objects**: Classes are blueprints for creating objects. An object is an instance of a class.
 2. **Encapsulation**: Bundling the data (attributes) and methods that operate on the data into a single unit or class.
 3. **Inheritance**: A mechanism where a new class inherits properties and behavior (methods) from an existing class.
@@ -155,38 +166,28 @@ let dog = new Dog('Rex');
 dog.speak(); // Rex barks.
 ```
 
-## Design Patterns
-
-### Design Patterns Definition
+### Design Patterns
 Design patterns are typical solutions to common problems in software design. Each pattern is like a blueprint that can be customized to solve a particular design problem in your code.
 
-### Types of Design Patterns
-1. **Creational Patterns**: Deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. Examples include Singleton, Factory, and Builder.
-2. **Structural Patterns**: Deal with object composition or the way to compose objects to form larger structures. Examples include Adapter, Composite, and Decorator.
-3. **Behavioral Patterns**: Deal with communication between objects and the delegation of responsibility. Examples include Observer, Strategy, and Command.
+### Commonly Used Design Patterns
 
-### Design Patterns in JS
-JavaScript's flexibility allows for the implementation of these patterns in various ways. Here is an example of the Singleton pattern:
+#### Behavioral Patterns
 
-```javascript
-class Singleton {
-    constructor() {
-        if (Singleton.instance) {
-            return Singleton.instance;
-        }
-        Singleton.instance = this;
-        this.data = "Singleton Data";
-    }
+1. **Command**: Encapsulates a request as an object, allowing for parameterization of clients with queues, requests, and operations.
+2. **Observer**: Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+3. **Strategy**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
-    getData() {
-        return this.data;
-    }
-}
+#### Creational Patterns
 
-const instance1 = new Singleton();
-const instance2 = new Singleton();
-console.log(instance1 === instance2); // true
-```
+1. **Builder**: Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+2. **Factory**: Defines an interface for creating an object but lets subclasses alter the type of objects that will be created.
+3. **Singleton**: Ensures a class has only one instance and provides a global point of access to that instance.
+
+#### Structural Patterns
+
+1. **Adapter**: Allows objects with incompatible interfaces to collaborate.
+2. **Decorator**: Attaches additional responsibilities to an object dynamically, providing a flexible alternative to subclassing for extending functionality.
+3. **Facade**: Provides a unified interface to a set of interfaces in a subsystem, defining a higher-level interface that makes the subsystem easier to use.
 
 ## Functional Programming (FP)
 
