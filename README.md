@@ -38,18 +38,18 @@
 - **Definition**
   - Typical solutions to common design problems
 - **Types of Design Patterns**
-  - **Creational Patterns**
-    - Singleton
-    - Factory
-    - Builder
-  - **Structural Patterns**
-    - Adapter
-    - Composite
-    - Decorator
   - **Behavioral Patterns**
+    - Command
     - Observer
     - Strategy
-    - Command
+  - **Creational Patterns**
+    - Builder
+    - Factory
+    - Singleton
+  - **Structural Patterns**
+    - Adapter
+    - Decorator
+    - Facade
 - **Design Patterns in JS**
   - Implementation flexibility
   - Singleton pattern example
