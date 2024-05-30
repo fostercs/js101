@@ -156,7 +156,7 @@ console.log(newArray); // [1, 2, 3, 4]
 
 ### A note on mastery
 
-Immutability involves creating stable, unchangeable states in evolutionary biology, personal development, and software development; Realms where consistency and reliability can be ensured. This course will not focus on immutability. Instead, we will emphasize programming fundamentals, including the importance of deliberate, strategic changes in software development. By focusing on making intentional modifications, we aim to explore how thoughtful and adaptive changes can enhance code quality, foster innovation, and improve problem-solving skills. Additionally, we will highlight how the functional programming paradigm, with its emphasis on immutability, accelerates developer velocity by reducing bugs, simplifying debugging, and making code easier to reason about. This approach offers a more dynamic and flexible path to mastering programming concepts.
+Immutability involves creating stable, unchangeable states, where consistency and reliability can be ensured. This course will emphasize programming fundamentals, including the importance of deliberate, strategic changes in software development. By focusing on making intentional modifications, we aim to explore how thoughtful and adaptive changes can enhance code quality, foster innovation, and improve problem-solving skills. Additionally, we will highlight how the functional programming paradigm, with its emphasis on immutability, accelerates developer velocity by reducing bugs, simplifying debugging, and making code easier to reason about. This approach offers a more dynamic and flexible path to mastering programming concepts.
 
 ### Higher-Order Functions
 - **map**
