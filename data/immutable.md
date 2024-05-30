@@ -1,5 +1,6 @@
 # Immutability
 ## aka Performance and Data Management
+### also a functional programming pattern
 
 #### Immutability in Software Development
 

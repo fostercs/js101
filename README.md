@@ -1,5 +1,8 @@
 # CS101 Syllabus
 
+### Handbook
+[Gitlab Handbook](https://handbook.gitlab.com/handbook/)
+
 ### Background
 - Importance of data wrangling
 - Code maintainability and repeatability
@@ -7,10 +10,11 @@
 
 ### Why JS?
 - Ubiquity and accessibility of JavaScript
-- Goals of Code Along Studio's CS 101 course
+- Course goals
 
 ### Acknowledgments & Disclaimer
 - Contributions from Douglas Crockford
+- Contributions from Sandy Metz
 - Consideration of other languages and technologies
 
 ## OOP (Object-Oriented Programming)
