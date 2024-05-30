@@ -158,7 +158,7 @@ console.log(newArray); // [1, 2, 3, 4]
 
 Immutability involves creating stable, unchangeable states, where consistency and reliability can be ensured. This course will emphasize programming fundamentals, including the importance of deliberate, strategic changes to data. By focusing on making intentional modifications, we aim to explore how thoughtful and adaptive changes can enhance code quality, foster innovation, and improve problem-solving skills. Additionally, we will highlight how the functional programming paradigm, with its emphasis on immutability, accelerates developer velocity by reducing bugs, simplifying debugging, and making code easier to reason about. This approach offers a more dynamic and flexible path to mastering programming concepts.
 
-### Higher-Order Function Trio
+### Higher-Order Function Power Trio
 - **map**
   - Definition: Transforms each element in an array
   - Usage example:
