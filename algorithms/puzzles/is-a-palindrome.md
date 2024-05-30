@@ -51,4 +51,4 @@ console.log(isPalindrome("hello")); // false
 - **`filter`**: Used to remove non-alphanumeric characters from the string.
 - **`reduce`**: Used to reverse the string by accumulating characters in reverse order.
 
-This solution ensures that the palindrome check is done in a clean and functional manner, utilizing the power of `map`, `reduce`, and `filter` effectively.
+### Notes

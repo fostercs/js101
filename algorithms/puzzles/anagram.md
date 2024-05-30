@@ -43,4 +43,4 @@ console.log(areAnagrams('hello', 'world'));   // false
    - Using `reduce` to create the frequency map ensures each string is processed in linear time.
    - Using `every` to compare the character frequencies ensures the comparison is efficient.
 
-This solution effectively utilizes `map`, `reduce`, and `filter` concepts through `reduce` for creating the frequency maps and `every` (which is conceptually similar to `filter` but for checking conditions) for comparing them.
+### Notes

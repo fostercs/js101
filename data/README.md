@@ -1,8 +1,7 @@
 # Immutability
-## aka Performance and Data Management
-### also a functional programming pattern
+aka Performance and Data Management; a functional programming pattern.
 
-#### Immutability in Software Development
+### Immutability in Software Development
 
 In software development, immutability means creating data structures and objects that cannot be changed after their creation. This approach enhances the predictability and reliability of the software:
 
@@ -34,3 +33,7 @@ Optimizing SQL indexing and using Immutable.js involve different aspects of soft
     - Immutable.js helps manage application state by providing immutable data structures that ensure data consistency and prevent unintended mutations.
 
 While optimizing SQL indexing primarily concerns the backend storage and retrieval of data in a relational database, using Immutable.js typically relates to managing application state in frontend JavaScript applications. However, both concepts contribute to overall performance and data management in software development.
+
+### JS Array Methods
+
+![JS Array Methods](./js-array-methods.png)

@@ -44,4 +44,4 @@ if (index !== -1) {
 }
 ```
 
-In this implementation, `lastOccurrence` function creates a "last occurrence" object, mapping each character in the pattern to its last occurrence index. While `map` is used here, it's a small part of the overall algorithm. The core algorithm itself doesn't directly lend itself to functional programming techniques like `map`, `reduce`, or `filter`. However, they could potentially be utilized in more complex implementations or for additional processing tasks surrounding the main search algorithm.
+### Notes

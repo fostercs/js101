@@ -54,4 +54,4 @@ console.log("Shortest distances:", distances);
 console.log("Predecessors:", predecessors);
 ```
 
-In this solution, `map`, `reduce`, and `filter` are used to find the unvisited vertices and to determine the vertex with the shortest distance that hasn't been visited yet. While the core algorithm doesn't directly use these functional programming techniques, they are used for auxiliary tasks in managing the algorithm's state.
+### Notes

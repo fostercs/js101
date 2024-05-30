@@ -67,4 +67,4 @@ Explanation:
    - After building the max heap, the largest element (root) is repeatedly swapped with the last element of the heap.
    - The heap size is reduced by 1, and the heap is heapified again to restore the heap property.
 
-Heap Sort is not inherently compatible with `map`, `reduce`, and `filter` because its core operations involve swapping elements and maintaining the heap property. However, you can use these functions for auxiliary purposes, such as transforming or filtering the input array before sorting.
+### Notes

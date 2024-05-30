@@ -48,4 +48,4 @@ console.log("Shortest distances:", distances);
 console.log("Next nodes:", next);
 ```
 
-In this solution, `map`, `reduce`, and `filter` are not used extensively within the core algorithm as it relies on traversing vertices and edges of the graph. However, they are used for auxiliary tasks such as initializing the `distances` and `next` matrices.
+### Notes

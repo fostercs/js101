@@ -40,4 +40,4 @@ const lcs = longestCommonSubsequence(text1, text2);
 console.log("Longest Common Subsequence:", lcs);
 ```
 
-In this solution, we use dynamic programming to compute the lengths of the longest common subsequences between `text1` and `text2`. We then reconstruct the longest common subsequence using backtracking. While functional programming techniques like `map`, `reduce`, and `filter` are not extensively used in the core algorithm, we still leverage array manipulation for creating and updating the dynamic programming table (`dp` array).
+### Notes

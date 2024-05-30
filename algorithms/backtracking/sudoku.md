@@ -57,4 +57,4 @@ solveSudoku(sudokuBoard);
 console.log(sudokuBoard);
 ```
 
-In this solution, `map`, `reduce`, and `filter` are not used extensively as they don't fit naturally into the backtracking algorithm used to solve Sudoku. Instead, we rely on array indexing and manipulation to implement the Sudoku solver.
+### Notes

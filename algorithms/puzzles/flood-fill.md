@@ -70,4 +70,4 @@ console.log(floodFill(image, sr, sc, newColor));
 
 ### Usage of `map`, `reduce`, `filter`:
 
-While `map`, `reduce`, and `filter` are generally used for transforming and reducing arrays, in this case, the flood fill algorithm relies heavily on recursive DFS, which is more naturally expressed with function calls and condition checks. The solution leverages recursion to explore and fill connected components, which is more straightforward than trying to use array methods like `map`, `reduce`, and `filter` directly.
+### Notes

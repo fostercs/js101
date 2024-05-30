@@ -41,4 +41,4 @@ const solutions = solveNQueens(n);
 console.log(solutions);
 ```
 
-In this solution, `map` is used to generate arrays representing the conflicts in each direction, `reduce` is not directly applicable here, and `filter` is not used as it doesn't fit naturally into the backtracking algorithm. However, we still leverage array manipulation with `map` to simplify the code and improve readability.
+### Notes

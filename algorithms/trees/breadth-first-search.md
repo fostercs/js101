@@ -112,4 +112,4 @@ console.log(bfsDetailed(graph, 'A')); // ['A', 'B', 'C', 'D', 'E', 'F']
 5. **Reduce to Add Neighbors to Queue**:
    - `reduce` is used to add each unvisited neighbor to the queue.
 
-This implementation shows how you can incorporate `map`, `reduce`, and `filter` in BFS, though the core BFS logic (processing nodes level by level using a queue) remains the same.
+### Notes

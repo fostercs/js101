@@ -74,4 +74,4 @@ Explanation:
    - It compares elements from both arrays and adds the smaller element to the result array until one of the arrays is exhausted.
    - Then, it adds the remaining elements from the other array to the result.
 
-Merge Sort is a classic example of a divide-and-conquer algorithm, and while it doesn't directly use `map`, `reduce`, and `filter`, it showcases the importance of recursion and efficient merging techniques. These are key concepts in algorithm design and can be further explored and applied in more complex scenarios.
+### Notes

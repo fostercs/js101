@@ -73,4 +73,4 @@ const consolidatedMoves = moves.reduce((acc, move) => {
 console.log(consolidatedMoves.join('\n'));
 ```
 
-In this context, `reduce` is used to transform the list of move objects into a list of move descriptions. However, the core recursive logic remains essential for solving the Tower of Hanoi problem.
+### Notes

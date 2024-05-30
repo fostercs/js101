@@ -49,4 +49,4 @@ Explanation:
 3. **Concatenating Results**:
    - We concatenate the sorted left subarray, the equal elements, and the sorted right subarray to form the final sorted array.
 
-This implementation showcases how `map`, `reduce`, and `filter` can be used to perform auxiliary operations within the Quick Sort algorithm in JavaScript, although the core of Quick Sort still relies on partitioning and recursion.
+### Notes

@@ -68,4 +68,4 @@ console.log("All entries:", myMap.entries());
 console.log("Map size:", myMap.size());
 ```
 
-In this implementation, `map`, `reduce`, and `filter` are not extensively used within the core methods of the `HashMap` class. However, they can be employed for various tasks such as transforming data, filtering entries based on certain conditions, or reducing values into a single result.
+### Notes

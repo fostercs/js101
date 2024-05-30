@@ -66,4 +66,4 @@ const sum = unsortedArray.reduce((acc, num) => acc + num, 0); // Example reducti
 console.log("Sum of Array:", sum);
 ```
 
-In this example, we apply `map` to double each element, `filter` to retain only the even elements, and `reduce` to calculate the sum of the array elements. However, these operations are separate from the sorting process and are not directly integrated into the Bubble Sort algorithm itself.
+### Notes

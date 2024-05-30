@@ -102,4 +102,4 @@ console.log(wordBreakOptimized(s3, wordDict3)); // false
 3. **Check Segments**:
    - Use `some` to check if any of these segments exist in the `wordSet`.
 
-By using `map`, `reduce`, and `filter`, the solution becomes more functional and expressive. This approach highlights the power of these methods in transforming and filtering data efficiently.
+### Notes

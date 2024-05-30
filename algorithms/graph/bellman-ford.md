@@ -60,4 +60,4 @@ try {
 }
 ```
 
-In this solution, `map`, `reduce`, and `filter` are not extensively used within the core algorithm as it relies on traversing vertices and edges of the graph. However, array manipulation techniques could be used to format the graph data structure if needed.
+### Notes

@@ -114,4 +114,4 @@ console.log(dfsDetailed(graph, 'A')); // ['A', 'C', 'F', 'E', 'B', 'D']
 5. **Reduce to Add Neighbors to Stack**:
    - `reduce` is used to push each unvisited neighbor onto the stack.
 
-This implementation shows how you can incorporate `map`, `reduce`, and `filter` in DFS, though the core DFS logic (processing nodes depth-first using a stack) remains the same.
+### Notes

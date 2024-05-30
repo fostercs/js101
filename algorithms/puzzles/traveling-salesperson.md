@@ -81,4 +81,5 @@ Distance: 80
 - **`reduce`**: Used to calculate the total distance of a route and to find the minimum distance route.
 - **`flatMap`**: Used within `permute` to flatten the array of permutations.
 
+### Notes
 This approach, while straightforward, is computationally expensive (O(n!)) and suitable only for a small number of cities. For larger datasets, heuristic or approximation algorithms such as Genetic Algorithms, Simulated Annealing, or Ant Colony Optimization are often used.

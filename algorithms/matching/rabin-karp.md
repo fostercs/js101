@@ -59,4 +59,4 @@ if (index !== -1) {
 }
 ```
 
-In this implementation, `hash` function calculates the hash value of a string, and `recalculateHash` function recalculates the hash value when moving the window in the text. While `map`, `reduce`, and `filter` are not directly used in the core algorithm, they could potentially be used for certain auxiliary tasks such as processing intermediate results or transforming data.
+### Notes

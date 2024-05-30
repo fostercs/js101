@@ -43,4 +43,4 @@ console.log("Total value:", result.totalValue);
 console.log("Selected items:", result.items.map((item) => `Item ${item}`));
 ```
 
-In this solution, we use `map`, `reduce`, and `filter` in a limited capacity to initialize the dynamic programming table (`dp` array). The core logic of the dynamic programming algorithm doesn't directly lend itself to these functional programming techniques, as it involves nested loops and conditional updates based on the current item's weight and value compared to the remaining capacity of the knapsack.
+### Notes

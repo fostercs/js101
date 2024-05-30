@@ -128,4 +128,4 @@ const codes = generateHuffmanCodes(root);
 console.log("Huffman codes:", codes);
 ```
 
-In this solution, `map`, `reduce`, and `filter` are not extensively used within the core algorithm as it primarily involves building a Huffman tree using a min-heap. However, they can be used for auxiliary tasks such as processing input data or traversing the tree to generate Huffman codes.
+### Notes

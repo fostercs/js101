@@ -62,4 +62,4 @@ if (index !== -1) {
 }
 ```
 
-In this implementation, `computeLPSArray` function computes the Longest Prefix Suffix (LPS) array for the pattern. While `map`, `reduce`, and `filter` are not directly utilized in the core algorithm, they could be used for certain auxiliary tasks such as transforming data or processing intermediate results.
+### Notes

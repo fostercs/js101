@@ -116,4 +116,4 @@ const minSpanningTree = prims(graph);
 console.log("Minimum Spanning Tree:", minSpanningTree);
 ```
 
-In this solution, `map`, `reduce`, and `filter` are used within the `MinHeap` class to maintain the heap property. The `prims` function utilizes these data manipulation techniques for initializing the visited vertices and updating the weights in the min heap.
+### Notes

@@ -91,4 +91,4 @@ console.log(binarySearch(preparedArray, targetValue)); // Output depends on the 
 4. **Binary Search**:
    - Perform the binary search on the prepared array.
 
-Although the core binary search algorithm does not naturally incorporate `map`, `reduce`, and `filter`, these methods can be used to preprocess or analyze the data in a way that complements the binary search process.
+### Notes

@@ -83,4 +83,4 @@ myHashTable.remove("key1");
 console.log("Value for key1 after removal:", myHashTable.get("key1"));
 ```
 
-In this implementation, `map`, `reduce`, and `filter` are not extensively used within the core methods of the `HashTable` class. However, they can be employed for various tasks such as iterating over buckets, filtering entries based on certain conditions, or reducing values into a single result.
+### Notes
