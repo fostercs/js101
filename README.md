@@ -34,6 +34,9 @@ Understanding OOP, design patterns, and functional programming is crucial for wr
 
 ### Consideration of other languages and technologies
 
+## Data
+[SWAPI](https://swapi.dev/documentation)
+
 ## OOP (Object-Oriented Programming)
 - **Definition**
   - Concept of objects
