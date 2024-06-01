@@ -1,4 +1,4 @@
-# CS101 Syllabus
+# JS101 Syllabus
 
 ### Handbook
 [Gitlab Handbook](https://handbook.gitlab.com/handbook/)
