@@ -6,10 +6,12 @@
 
 // whileLoop
 
-// arrays
+// array
 
 // map
 
 // filter
 
 // reduce
+
+// test
