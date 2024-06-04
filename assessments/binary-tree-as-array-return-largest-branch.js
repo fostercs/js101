@@ -5,7 +5,6 @@
 // If the tree has 0 nodes, return 0
 // -1 is a non-existent node
 
-
 const solution = (arr) => {
     // Type your solution here
 
