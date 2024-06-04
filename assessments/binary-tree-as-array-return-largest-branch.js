@@ -4,8 +4,7 @@
 // If they are equal, return 0
 // If the tree has 0 nodes, return 0
 // -1 is a non-existent node
-const solution = (arr) => {
-    // Type your solution here
+
 
 const solution = (arr) => {
     // Type your solution here
@@ -68,10 +67,3 @@ const solution = (arr) => {
     return leftBranchRes;
     }
 };
-
-
-let arr = [3, 6, 2, 9, -1, 10]; // Left
-// let arr =  [1,4,100,5]; // Right
-// let arr = [1,10,5,1,0,6] // Equal
-// let arr = [] // Empty tree
-// let arr = [1] // Only root node
