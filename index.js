@@ -7,6 +7,7 @@
 const solution = (arr) => {
     // Type your solution here
     console.log(arr); // Inspect input
+    let branch = '';
 
     function sumBranch(arr, branch) {
         let branchSum = 0;
@@ -25,32 +26,30 @@ const solution = (arr) => {
         return branchSum;
     }
 
-    // Left branch is largest sum and asserts "Left"
     function leftBranchSum(arr) {
         let countStart = "left";
         let branchSum = sumBranch(arr, countStart);
         return branchSum;
     }
 
-    //  Right branch is largest sum and asserts "Right"
     function rightBranchSum(arr) {
         let countStart = "right";
         let branchSum = sumBranch(arr, countStart);
         return branchSum;
     }
 
+    leftSum = leftBranchSum(arr);
+    rightSum = rightBranchSum(arr);
     // Sum of branches is equal and asserts ""
-    let leftSum = leftBranchSum(arr);
-    let rightSumSum = rightBranchSum(arr);
-    if ((leftSum = rightSum)) return "";
-
+    if ((leftSum == rightSum)) return "";
+    // Left branch is largest sum and asserts "Left"
+    if (leftSum > rightSum) return "Left";
+    //  Right branch is largest sum and asserts "Right"
+    if (rightSum > leftSum) return "Right";
     // Equal branches, empty tree, only root node asserts ""
     if (arr.length == 0 || arr.length == 1) return "";
 };
 
-let arr = [3, 6, 2, 9, -1, 10]; // Left
-// let arr =  [1,4,100,5]; // Right
-// let arr = [1,10,5,1,0,6] // Equal
-// let arr = [] // Empty tree
-// let arr = [1] // Only root node
-solution(arr);
+// solution(arr);
+
+module.exports = solution;

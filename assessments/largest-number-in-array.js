@@ -1,16 +1,24 @@
-// Write a function that takes a list of numbers and returns the largest number in the list.
-// If the list is empty, return zero.
+const solution = (numbers) => {
+    // Type your solution here
+    //     console.log('hello world ', numbers, numLength);
+    //     const (largestNum) => {
+    //     const greeting = 'hello world';
 
-function findLargestNumber(numbers) {
-    if (numbers.length === 0) return 0;
-    let largestIndexValue = numbers[0];
-    for (let i = 0; i < numbers.length; i++) {
-        if (numbers[i] > largestIndexValue) {
-            largestIndexValue = numbers[i];
+    function largestNum(numbers) {
+        //         console.log('largest number calculator // begin program', numbers);
+        //         return greeting;
+        if (numbers.length === 0) return 0;
+        let largestIndexValue = numbers[0];
+        let numLength = numbers.length;
+        for (let i = 0; i < numLength; i++) {
+            if (numbers[i] > largestIndexValue) {
+                largestIndexValue = numbers[i];
+            }
         }
+        return largestIndexValue;
     }
-    return largestIndexValue;
-}
-
-let numbers = [7, 2, 6, 3, -1, 10];
-console.log(findLargestNumber(numbers)); // Output: 7
+    // call our program
+    //     console.log(largestNum(numbers));
+    calculateLargestNum = largestNum(numbers);
+    return calculateLargestNum;
+};

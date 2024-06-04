@@ -6,47 +6,69 @@
 // -1 is a non-existent node
 const solution = (arr) => {
     // Type your solution here
-    // console.log(arr); // Inspect input
 
-    function sumBranch(arr, branch) {
+const solution = (arr) => {
+    // Type your solution here
+
+    function findBranchSum (arr, branch) {
+        let emptyRes = '';
         let branchSum = 0;
-        // ignore root node and start at first left node count
-        let startingIndex = 1;
-        // move index start to first right node count
-        if ((branch = "right")) startingIndex = 2;
+        let startingIndex = 1; // We know we will ignore the root, and that we count from left to right.
+        if (branch = 'Left') {
+            startingIndex = 1; // Set startingIndex;
+        } else if (branch = 'Right') {
+            startingIndex = 2; // Right branch count start index.
+        } else {
+        return emptyRes;
+        }
 
-        for (let i = startingIndex; i < arr.length; i += 2) {
-            if (arr[i] == -1) {
-                return "";
-            } else {
-                branchSum += arr[i];
+        // Remove non-existant nodes
+        for (let i = 0; i < arr.length; i++) {
+            arrayIndexValue = arr[i];
+            if (arrayIndexValue == -1) {
+                let index = arr.indexOf(arr[i]);
+                arr.splice(index, 1);
             }
         }
+
+        console.log("arr after removing -1", arr)
+
+        for (let i = startingIndex; i < arr.length; i +=2) {
+            branchSum += arr[i];
+        }
+//         return branchSum;
+//         console.log(arr);
+        console.log("branch sum", branchSum, " on branch ", branch);
         return branchSum;
+    };
+
+
+    function branchAddr (arr, branch) {
+        if (branch = 'Left') {
+            let branchName = 'Left';
+            findBranchSum(arr, branchName);
+        } else if (branch = 'Right') {
+            let branchName = 'Right';
+            findBranchSum(arr, branchName);
+        } else
+        return 0;
     }
 
-    // Left branch is largest sum and asserts "Left"
-    function leftBranchSum(arr) {
-        let countStart = "left";
-        let branchSum = sumBranch(arr, countStart);
-        return branchSum;
+    let leftBranchRes = "Left";
+    let rightBranchRes = "Right";
+
+    let leftBranchGrandSum = branchAddr(arr, rightBranchRes);
+    let rightBranchGrandSum = branchAddr(arr, leftBranchRes);
+
+    console.log("branch sums ", leftBranchGrandSum, rightBranchGrandSum);
+
+    if (rightBranchGrandSum > leftBranchGrandSum) {
+        return branch;
+    } else  if (rightBranchGrandSum < leftBranchGrandSum) {
+    return leftBranchRes;
     }
-
-    //  Right branch is largest sum and asserts "Right"
-    function rightBranchSum(arr) {
-        let countStart = "right";
-        let branchSum = sumBranch(arr, countStart);
-        return branchSum;
-    }
-
-    // Sum of branches is equal and asserts ""
-    let leftSum = leftBranchSum(arr);
-    let rightSumSum = rightBranchSum(arr);
-    if ((leftSum = rightSum)) return "";
-
-    // Equal branches, empty tree, only root node asserts ""
-    if (arr.length == 0 || arr.length == 1) return "";
 };
+
 
 let arr = [3, 6, 2, 9, -1, 10]; // Left
 // let arr =  [1,4,100,5]; // Right
