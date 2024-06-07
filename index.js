@@ -9,7 +9,9 @@
 // If the tree has 0 nodes, return 0
 // -1 is a non-existent node
 
-let arr = [3, 6, 2, 9, -1, 10]; // Left
+let arr = [];
+// let arr = [3, 6, 2, 9, -1, 10]; // Left
+// let arr = [1,10,5,1,12,6] // Equal
 
 const solution = (arr) => {
     // Type your solution here
@@ -42,7 +44,7 @@ const solution = (arr) => {
     // filterArr(arr);
     arr = filterArr(arr);
 
-    // console.log("Filtered Array: ", arr);
+    console.log("Filtered Array: ", arr);
 
     let leftSum = leftBranchSum(arr);
     let rightSum = rightBranchSum(arr);
@@ -56,8 +58,8 @@ const solution = (arr) => {
             res = 'Left';
         } else if (leftSum < rightSum) {
             res = 'Right';
-        } else if (leftSum === rightSum) {
-            res = 0;
+        } else if (leftSum == rightSum) {
+            res = 'Equal';
         } return res;
     }
 
