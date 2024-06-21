@@ -1,17 +1,22 @@
 // 101.js
 // node index.js
 // npm test
+// warming up before your test
 
-// Given a binary tree represented as an array, write a function that calculates the sum of the left branch and the sum of the right branch, and returns the largest branch.
+// challenge question:
+// Given a binary tree represented as an array,
+// write a function that calculates the sum of the left branch and the sum of the right branch, and returns the largest branch as a string.
 // If the left branch is larger, return 'Left'
 // If the right branch is larger, return 'Right'
 // If they are equal, return 0
 // If the tree has 0 nodes, return 0
 // -1 is a non-existent node
 
-let arr = [];
-// let arr = [3, 6, 2, 9, -1, 10]; // Left
-// let arr = [1,10,5,1,12,6] // Equal
+let arr = [3, 6, 2, 9, -1, 10]; // Left
+// let arr = [1, 4, 100, 5]; // Right
+// let arr = [1, 10, 5, 1, 12, 6]; // Equal
+// let arr = []; // Empty tree
+// let arr = [7]; // Only root node
 
 const solution = (arr) => {
     // Type your solution here
@@ -22,7 +27,7 @@ const solution = (arr) => {
         // Remove root node
         arr.shift();
         // Remove all non-existent nodes (-1)
-        return arr.filter(node => node !== -1);
+        return arr.filter((node) => node !== -1);
     }
 
     function leftBranchSum(arr) {
@@ -52,20 +57,23 @@ const solution = (arr) => {
     console.log("Left Branch Sum", leftSum);
     console.log("Right Branch Sum", rightSum);
 
-    function calcLrgstBranch(leftSum, rightSum) {
+    function calcLrgstBranch(arr, leftSum, rightSum) {
         let res = null;
         if (leftSum > rightSum) {
-            res = 'Left';
+            res = "Left";
         } else if (leftSum < rightSum) {
-            res = 'Right';
-        } else if (leftSum == rightSum) {
-            res = 'Equal';
-        } return res;
+            res = "Right";
+        } else if (leftSum === rightSum && arr.length > 1) {
+            res = "Equal";
+        } else if (arr.length == 0 || arr.length == 1) {
+            res = 0;
+        }
+        return res;
     }
 
-    let result = calcLrgstBranch(leftSum, rightSum);
+    let result = calcLrgstBranch(arr, leftSum, rightSum);
     console.log("Result:", result);
-    
+
     return result;
 };
 
