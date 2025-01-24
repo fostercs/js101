@@ -27,6 +27,10 @@ console.log(instance1 === instance2); // true
 ### Design Patterns
 ![](./design-patterns.png)
 
+### Design Pattern Relationships
+
+![](./design-pattern-relationships.png)
+
 ### Types of Design Patterns
 
 #### Behavioral Patterns
