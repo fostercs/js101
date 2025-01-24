@@ -24,6 +24,9 @@ const instance2 = new Singleton();
 console.log(instance1 === instance2); // true
 ```
 
+### Design Patterns
+![](./design-patterns.png)
+
 ### Types of Design Patterns
 
 #### Behavioral Patterns
